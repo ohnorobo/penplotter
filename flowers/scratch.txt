@@ -1,0 +1,13 @@
+rm urn.png \
+   urn_0.png \
+   urn_C.png \
+   urn_1.png \
+   urn_M.png \
+   urn_2.png \
+   urn_Y.png \
+   urn_3.png \
+   urn_K.png \
+   urn_C_big.svg \
+   urn_M_big.svg \
+   urn_Y_big.svg \
+   urn_K_big.svg
