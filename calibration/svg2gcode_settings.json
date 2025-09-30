@@ -1,0 +1,26 @@
+{
+  "conversion": {
+    "tolerance": 0.01,
+    "feedrate": 1000.0,
+    "dpi": 96.0,
+    "origin": [
+      0.0,
+      0.0
+    ]
+  },
+  "machine": {
+    "supported_functionality": {
+      "circular_interpolation": true
+    },
+    "tool_on_sequence": "G1 Z6.0 F2000 ; pen down (z axis)",
+    "tool_off_sequence": "G90 G0 Z0.0 ; pen up",
+    "begin_sequence": "",
+    "end_sequence": "G90 G0 Z0.0 ; last pen up"
+  },
+  "postprocess": {
+    "checksums": false,
+    "line_numbers": false,
+    "newline_before_comment": false
+  },
+  "version": "V5"
+}
